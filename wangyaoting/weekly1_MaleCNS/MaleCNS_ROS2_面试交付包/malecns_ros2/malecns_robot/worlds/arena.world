@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="malecns_arena">
+    <gravity>0 0 -9.81</gravity>
+    <physics name="default_physics" type="ode"><real_time_update_rate>1000</real_time_update_rate><max_step_size>0.001</max_step_size></physics>
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+    <model name="obstacle_main"><static>true</static><pose>-0.1 0.30 0.35 0 0 0</pose><link name="body"><collision name="collision"><geometry><box><size>0.65 0.80 0.70</size></box></geometry></collision><visual name="visual"><geometry><box><size>0.65 0.80 0.70</size></box></geometry><material><ambient>0.8 0.15 0.12 1</ambient><diffuse>0.8 0.15 0.12 1</diffuse></material></visual></link></model>
+    <model name="obstacle_second"><static>true</static><pose>1.15 -0.30 0.30 0 0 0</pose><link name="body"><collision name="collision"><geometry><box><size>0.50 0.55 0.60</size></box></geometry></collision><visual name="visual"><geometry><box><size>0.50 0.55 0.60</size></box></geometry><material><ambient>0.9 0.5 0.1 1</ambient><diffuse>0.9 0.5 0.1 1</diffuse></material></visual></link></model>
+    <model name="north_wall"><static>true</static><pose>0 3.0 0.35 0 0 0</pose><link name="body"><collision name="collision"><geometry><box><size>9 0.2 0.7</size></box></geometry></collision><visual name="visual"><geometry><box><size>9 0.2 0.7</size></box></geometry><material><ambient>0.5 0.5 0.5 1</ambient></material></visual></link></model>
+    <model name="south_wall"><static>true</static><pose>0 -3.0 0.35 0 0 0</pose><link name="body"><collision name="collision"><geometry><box><size>9 0.2 0.7</size></box></geometry></collision><visual name="visual"><geometry><box><size>9 0.2 0.7</size></box></geometry><material><ambient>0.5 0.5 0.5 1</ambient></material></visual></link></model>
+  </world>
+</sdf>

@@ -1,0 +1,18 @@
+{
+  "samples": 1621,
+  "sim_duration_s": 162.0,
+  "start_xy": [
+    -2.5,
+    -0.0
+  ],
+  "finish_xy": [
+    2.393,
+    -0.311
+  ],
+  "path_length_m": 5.55,
+  "final_goal_distance_m": 0.329,
+  "goal_reached": true,
+  "min_estimated_obstacle_clearance_m": 0.296,
+  "collision_by_geometry": false,
+  "neural_turn_nonzero_fraction": 0.952
+}

@@ -1,0 +1,10 @@
+{
+  "training_examples": 10000,
+  "test_examples": 2000,
+  "holdout_speed_mae_mps": 0.005491941509409507,
+  "holdout_turn_mae_rps": 0.08556915769061162,
+  "no_connectivity_speed_mae_mps": 0.07896973213017015,
+  "no_connectivity_turn_mae_rps": 0.8112095715014267,
+  "readout_features": 104,
+  "method": "ridge imitation of a local obstacle/goal expert; MaleCNS edges frozen"
+}

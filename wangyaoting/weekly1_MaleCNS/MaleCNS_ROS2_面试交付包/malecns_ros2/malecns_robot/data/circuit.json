@@ -1,0 +1,17 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "license": "CC-BY 4.0",
+  "min_synapses_for_selection": 10,
+  "neurons": 304,
+  "connections": 2529,
+  "synapses": 177002,
+  "roles": {
+    "visual_projection": 72,
+    "cb_intrinsic": 128,
+    "descending_neuron": 32,
+    "vnc_intrinsic": 48,
+    "vnc_motor": 24
+  },
+  "source": "https://male-cns.janelia.org/download/",
+  "selection": "visual projection -> central brain interneuron -> descending neuron -> VNC interneuron -> motor neuron"
+}
