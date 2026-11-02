@@ -1,0 +1,4 @@
+# Only for rebuilding circuit.npz and readout.npz from the official Feather tables.
+numpy
+pyarrow
+scipy
